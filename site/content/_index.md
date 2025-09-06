@@ -1,7 +1,7 @@
 ---
 title: Patogumas, saugumas, aiškumas
 subtitle: Prieinama estetiška aplinka visiems
-image: /img/home-jumbotron.jpg
+image: img/biuras-su-žmonėmis..png
 blurb:
   heading: Mūsų misija
   text: Kaldi is the coffee store for everyone who believes that great coffee
