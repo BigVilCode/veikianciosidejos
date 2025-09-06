@@ -12,18 +12,13 @@
 [context.deploy-preview]
   command = "yarn build:preview"
 
-# Netlify Dev (lokaliai). Galima palikti.
+  [[context.deploy-preview.plugins]]
+    package = "netlify-plugin-cypress"
+
+    [context.deploy-preview.plugins.inputs]
+      record = true
+
 [dev]
   framework = "hugo"
   targetPort = 3000
 
-# Vykdyti Cypress tik per deploy preview
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
-  [plugins.inputs]
-    record = true
-
-  [plugins.conditions]
-    # plugin veiks tik preview aplinkoje
-    includedContexts = ["deploy-preview"]
