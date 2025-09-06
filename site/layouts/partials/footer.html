@@ -4,37 +4,48 @@
 
 		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
+			
 			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
 			<p>{{ .Site.Data.footer.blurb }}</p>
 
-			{{ partial "newsletter-form" . }}
+			<form name="footer-contact" method="POST" data-netlify="true">
+				<input type="hidden" name="form-name" value="footer-contact" />
+				<div class="mb2">
+					<label for="email">El. paštas</label>
+					<input type="email" id="email" name="email" required class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Jūsų el. paštas" />
+				</div>
+				<div class="mb2">
+					<label for="message">Užklausa</label>
+					<textarea id="message" name="message" required class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Jūsų užklausa"></textarea>
+				</div>
+				<button type="submit" class="btn bg-bluevb white">Siųsti</button>
+			</form>
 
 		</div>
 
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+				<h3 class="f4 b lh-title mb1 bluevb">Veikiančios idėjos</h3>
 				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+					<li><a href="/" class="link">Titulinis</a></li>
+					<li><a href="/products" class="link">Mūsų paslaugos</a></li>
+					<li><a href="/values" class="link">Apie</a></li>
+					<li><a href="/post" class="link">Tinklaraštis</a></li>
+					<li><a href="/contact" class="link">Kontaktai</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
+				<h3 class="f4 b lh-title mb1 bluevb">Sužinokite daugiau</h3>
 				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule an appointment</a></li>
+					<li><a href="/post/jamaica-blue/" class="link">Mūsų pasiūlymas</a></li>
+					<li><a href="/contact" class="link">Susitikime</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
+				<h3 class="f4 b lh-title mb2 bluevb">Socialiniai tinklai</h3>
 				<ul class="mhn2">
 					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
 					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
