@@ -1,20 +1,29 @@
-[build.environment]
-  NETLIFY_USE_YARN = "true"
-  YARN_VERSION = "1.22.17"
-
 [build]
   command = "yarn build"
   publish = "dist"
 
+[build.environment]
+  NETLIFY_USE_YARN = "true"
+  YARN_VERSION = "1.22.17"
+  HUGO_VERSION = "0.126.1"
+  HUGO_EXTENDED = "true"
+  NODE_VERSION = "22"
+
 [context.deploy-preview]
   command = "yarn build:preview"
 
+# Netlify Dev (lokaliai). Galima palikti.
 [dev]
   framework = "hugo"
   targetPort = 3000
 
+# Vykdyti Cypress tik per deploy preview
 [[plugins]]
   package = "netlify-plugin-cypress"
 
   [plugins.inputs]
     record = true
+
+  [plugins.conditions]
+    # plugin veiks tik preview aplinkoje
+    includedContexts = ["deploy-preview"]
