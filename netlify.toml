@@ -14,11 +14,9 @@
 
   [[context.deploy-preview.plugins]]
     package = "netlify-plugin-cypress"
-
     [context.deploy-preview.plugins.inputs]
       record = true
 
 [dev]
   framework = "hugo"
   targetPort = 3000
-
