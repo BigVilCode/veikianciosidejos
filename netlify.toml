@@ -7,7 +7,7 @@
   YARN_VERSION = "1.22.17"
   HUGO_VERSION = "0.126.1"
   HUGO_EXTENDED = "true"
-  NODE_VERSION = "22"
+  NODE_VERSION = "18"
 
 [context.deploy-preview]
   command = "yarn build:preview"
