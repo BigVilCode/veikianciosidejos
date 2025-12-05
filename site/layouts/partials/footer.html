@@ -10,15 +10,23 @@
 
 			<form name="footer-contact" method="POST" data-netlify="true">
 				<input type="hidden" name="form-name" value="footer-contact" />
+				
 				<div class="mb2">
-					<label for="email">El. paštas</label>
+					<label for="topic" class="f6 b db mb1 mt2">Tema</label>
+					<input type="text" id="topic" name="topic" class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Kokia tema kreipiatės?" />
+				</div>
+
+				<div class="mb2">
+					<label for="message" class="f6 b db mb1">Žinutė</label>
+					<textarea id="message" name="message" required class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Jūsų žinutė..." rows="4"></textarea>
+				</div>
+
+				<div class="mb2">
+					<label for="email" class="f6 b db mb1">El. paštas</label>
 					<input type="email" id="email" name="email" required class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Jūsų el. paštas" />
 				</div>
-				<div class="mb2">
-					<label for="message">Užklausa</label>
-					<textarea id="message" name="message" required class="input-reset ba b--black-20 pa2 mb2 db w-100" placeholder="Jūsų užklausa"></textarea>
-				</div>
-				<button type="submit" class="btn bg-bluevb black">Siųsti</button>
+
+				<button type="submit" class="btn bg-bluevb black pointer dim br2 ph3 pv2 mb2 dib white-90 b--none">Siųsti žinutę</button>
 			</form>
 
 		</div>
