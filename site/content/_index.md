@@ -1,31 +1,37 @@
 ---
-title: Patogumas, saugumas, aiškumas
+title: Saugumas, patogumas, aiškumas
 subtitle: Prieinama estetiška aplinka visiems
 image: img/biuras-su-žmonėmis..png
 blurb:
   heading: Mūsų misija
-  text: Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  text: Aplinka, kurioje kiekvienas žmogus jaučiasi saugus, aiškiai supranta, kaip
+    joje judėti, ir gali patogiai naudotis visomis erdvėmis bei paslaugomis.
+    Siekiame miestų ir pastatų, kurių prieinamumas yra natūralus standartas, o
+    estetiniai sprendimai dera su funkcionalumu. Norime, kad gerai sukurta
+    aplinka būtų matoma, jaučiama ir prieinama kiekvienam – be išimčių.
 intro:
   heading: Kuo galime padėti
-  text: Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+  text: >
+    Yra erdvių, kuriose žmonės jaučiasi saugūs, aiškiai supranta, kaip judėti,
+    ir savarankiškai randa viską, ko reikia. Tokiose vietose aplinka veikia
+    žmogui – ramiai, natūraliai, be papildomų pastangų. Tačiau būna ir kitaip:
+    neaiškūs ženklai, paini struktūra, staigūs slenksčiai ar nepritaikyti
+    įėjimai verčia pasimesti, jaustis nesaugiai, prašyti pagalbos.
+
+
+    Mūsų tikslas – padėti pamatyti šiuos barjerus anksčiau, nei jie tampa problema. Vertiname fizinės aplinkos aiškumą, saugumą ir patogumą, taip pat tikriname prieinamumą žmonėms su negalia, vyresnio amžiaus lankytojams bei visiems, kam gali būti sudėtingiau orientuotis ar judėti.
 products:
-  - image: img/illustrations-coffee.svg
-    text: We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability.
-  - image: /img/illustrations-coffee-gear.svg
-    text: We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
+  - image: img/standartas.png
+    text: Remiamės Europos standartu EN 17210 „Accessibility and usability of the
+      built environment – Requirements and recommendations“, kuris nustato
+      aiškius prieinamumo ir patogumo principus. Tai padeda užtikrinti, kad
+      sprendimai atitiktų šiuolaikinius reikalavimus ir būtų pritaikyti realiems
+      žmonių poreikiams.
+  - image: img/patarimai.png
+    text: Pateikiame aiškias rekomendacijas, kaip erdvę padaryti suprantamą ir
+      patogią visiems – be išimčių. Tokia aplinka ne tik gerina žmonių patirtį,
+      bet ir didina paslaugų pasiekiamumą, padeda kurti pasitikėjimą bei
+      teigiamą įspūdį nuo pirmo žingsnio.
 values:
   heading: Mūsų vertybės
   text: Coffee is an amazing part of human culture but it has a dark side too –
