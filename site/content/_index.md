@@ -33,9 +33,15 @@ products:
       bet ir didina paslaugų pasiekiamumą, padeda kurti pasitikėjimą bei
       teigiamą įspūdį nuo pirmo žingsnio.
 values:
-  heading: Mūsų vertybės
-  text: Coffee is an amazing part of human culture but it has a dark side too –
-    one of colonialism and mindless abuse of natural resources and human lives.
-    We want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+  heading: Kodėl verta rinktis mus?
+  text: >-
+    Padedame sukurti aplinką, kurioje žmonės jaučiasi saugiai, patogiai ir gali
+    aiškiai orientuotis be papildomos pagalbos. Priešingai nei painiose erdvėse,
+    čia judėjimas tampa natūralus, suprantamas ir prieinamas visiems.
+
+
+    Mūsų vertinimai leidžia greitai nustatyti, kur aplinka kelia nepatogumų ar riziką, ir pateikti konkrečias rekomendacijas, kaip tai ištaisyti. Dirbame remdamiesi tarptautiniais prieinamumo ir funkcionalumo standartais ir padedame atitikti teisės aktuose nustatytus prieinamumo reikalavimus.
+
+
+    Klientai renkasi mus, nes padedame sukurti erdves, kurios veikia – gerina žmonių patirtį, didina paslaugų pasiekiamumą ir kuria teigiamą įspūdį nuo pirmo žingsnio.
 ---
